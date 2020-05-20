@@ -10,7 +10,7 @@ def main():
     """
     print taxi information
     """
-    prius_taxi = Taxi("Prius 1", 100, 1.23)
+    prius_taxi = Taxi("Prius 1", 100)
 
     prius_taxi.drive(40)    # Drive the taxi 40m
     print(prius_taxi)   # print the taxi's current details and the current fare
