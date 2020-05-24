@@ -61,7 +61,8 @@ def demo_walk():
             print("Path is : {}".format(path))
             new_name = os.path.join(directory_name, get_fixed_filename(file))
             print(new_name)
-            print("directory_name + name is {}".format(directory_name + new_name))  # not work since need to use join to combine
+            print("directory_name + name is {}".format(
+                directory_name + new_name))  # not work since need to use join to combine
             os.rename(path, new_name)
 
 
